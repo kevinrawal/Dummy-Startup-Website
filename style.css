@@ -1,0 +1,173 @@
+body{
+   color: black;
+}
+
+
+#Title{
+    background-color: #141E61;
+    color: #EEEEEE;
+    /* word-spacing: 2px; */
+}
+
+.container-fluid{
+   padding:6% 12%
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* nav bar */
+
+.navbar{
+    background-color: #0F044C;
+    color: #EEEEEE;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: bold;
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+/* Download Buttons */
+
+.download-botton{
+    margin: 5% 3% 5% 0;
+}
+
+.d-b{
+    background: #000;
+}
+/* title-img */
+.title-img{
+    width: 80%;
+}
+
+/* feature section */
+#feature{
+    padding: 7% 15%;
+    /* width: 100%;
+    margin: auto; */
+}
+
+.f-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.f-box p{
+    color: grey;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.f-icon{
+   color: #141E61;
+   margin-bottom: 1rem;
+}
+
+.f-icon:hover{
+    color:#0F044C;
+}
+
+/* Testimonial */
+#testimonial{
+    background-color: #141E61;
+    color: #EEEEEE;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-align: center;
+}
+.t-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: auto;
+}
+#press{
+    text-align: center;
+    background-color: #141E61;
+    color: #EEEEEE;
+}
+.press-logo{
+    width: 10%;
+    margin: 8% 5%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-card{
+    padding: 2% 3%;
+}
+
+.custom-card{
+    background-color: #141E61;
+    color: #EEEEEE;
+    border-radius: 0;
+    padding: 2% 3%;
+    border-radius: 10px;
+    margin: 2% 0;
+}
+
+@media (max-width: 1028px) {
+    #Title{
+        text-align: center;
+    }    
+}
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #141E61;
+    color: #EEEEEE;
+}
+
+.social-handel{
+    text-align: center;
+    margin: 2% 0;
+}
+.social-handel a{
+    margin: 0% 2% 0% 2%;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer p{
+    font-size: 0.8rem;
+}
+
+.fa-instagram ,.fa-twitter, .fa-envelope{
+    color: #141E61;
+}
+
+.fa-facebook-square{
+    color: #141E61;
+}
+
+.fa-instagram:hover, .fa-twitter:hover,.fa-github , .fa-envelope:hover, .fa-facebook-square:hover{
+    color: #0F044C;
+}
